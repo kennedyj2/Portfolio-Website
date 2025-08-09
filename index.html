@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio of Jeremiah Kennedy</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"></script>
+</head>
+<body>
+    <header class="header">
+        <a href="#" class="logo"><span>Jeremiah Kennedy</span></a>
+        <ul class="nav-links">
+            <li>
+                <a href="#about">About</a>
+            </li>
+            <li>
+                <a href="#experience">Experience</a>
+            </li>
+            <li>
+                <a href="#projects">Projects</a>
+            </li>
+            <li>
+                <a href="#contact">Contact</a>
+            </li>
+        </ul>
+        <i class="fa-solid fa-bars" id="menu-icon"></i>
+        <a href="https://github.com/kennedyj2">
+            <button class="visit-btn">Visit Github</button>
+        </a>
+        
+    </header>
+
+    <section id="about" class="about">
+        <div class="about-container">
+            <img src="images/Profile-Pic.jpg" alt="">
+
+        <div class="info-box">
+            <div class="text">
+                <h3>Hi, I'm</h3>
+                <h1>Jeremiah Kennedy</h1>
+                <span>Frontend Developer</span>
+            </div>
+           
+       
+
+        <div class="btn-group">
+            
+                <div class="btn">Download CV</div>
+            <a href="#contact" style="color:black">
+                <div class="btn">Contact</div>
+            </a>
+            
+        </div>
+
+        <div class="socials">
+            <a href="https://github.com/kennedyj2">
+                <i class="fa-brands fa-github" style="color: black"></i>
+            </a>
+            <a href="https://www.linkedin.com/in/antwane-kennedy-a77795302/" style="color:black">
+                <i class="fa-brands fa-linkedin"></i>
+            </a>
+            
+        </div>
+        </div>
+        </div>
+    </section>
+    <section id="experience" class="experience">
+        <h2 class="section-title">
+            Experience
+        </h2>
+        <div class="experience-info">
+            <div class="grid">
+                <div class="grid-card">
+                    <i class="fa-solid fa-code"></i>
+                    <span>HTML CSS</span>
+                    <h3>1 yr</h3>
+                    <p>Built responsive, accessible layouts and pixel-perfect designs using modern HTML5 and CSS3 (Flexbox, Grid). Familiar with cross-browser testing, mobile-first design, and optimizing load performance. </p>
+                </div>
+           
+            
+                <div class="grid-card">
+                    <i class="fa-solid fa-file-code"></i>
+                    <span>Python</span>
+                    <h3>3 yrs</h3>
+                    <p>Developed scripts and small web services for automation, data processing, and prototyping using Python (requests, pandas, Flask). Experienced with writing clean, testable code and integrating APIs and databases.</p>
+                </div>
+            
+            
+                <div class="grid-card">
+                    <i class="fa-solid fa-laptop"></i>
+                    <span>C++</span>
+                    <h3>2 yr</h3>
+                    <p>Implemented efficient algorithms and systems-level code in C++ for performance-sensitive tasks. Comfortable with OOP, memory management, STL, and debugging/optimizing compiled applications.</p>
+                </div>
+            
+            
+                <div class="grid-card">
+                    <i class="fa-solid fa-laptop"></i>
+                    <span>JS</span>
+                    <h3>2 yr</h3>
+                    <p>Created interactive, dynamic front-end features and single-page app behavior using vanilla JS and DOM manipulation. Experienced with asynchronous code (Promises/async–await), event handling, and integrating third-party APIs. </p>
+                </div>
+            </div>
+            <img src="images/Profile-Pic.jpg">
+        </div>
+    </section>
+
+    <section id="projects" class="projects">
+        <h2 class="section-title">Recent Projects</h2>
+        <div class="projects-grid">
+            <div class="project-card">
+                <img src="images/Screenshot (492).png">
+                <h3>Mario Themed To-Do-List App</h3>
+                <p>A Mario-Themed task manager, with a task list, task addition, task deletion, and character selection.
+                </p>
+                <div class="btn-group">
+                    <a href="https://mariotodolist.netlify.app">
+                        <div class="btn">Live Demo</div>
+                    </a>
+                    <a href="https://github.com/kennedyj2/Mario-To-Do-List-repo">
+                        <div class="btn">Github Repo</div>
+                    </a>
+                    
+                </div>
+            </div>
+            <div class="project-card">
+                <img src="images/Screenshot (493).png">
+                <h3>Awards Website</h3>
+                <p>A sleek, responsive website designed to showcase Zentry, its characters, and recognitions in a visually engaging format.</p>
+                <div class="btn-group">
+                    <a href="https://awardswebsite.netlify.app">
+                        <div class="btn">Live Demo</div>
+                    </a>
+                    <a href="https://github.com/kennedyj2/Awards-Website-Repo">
+                        <div class="btn">Github Repo</div>
+                    </a>
+                    
+                </div>
+            </div>
+            <div class="project-card">
+                <img src="images/Screenshot (491).png">
+                <h3>Pomodoro Timer App</h3>
+                <p>A beautifully designed, browser-based Pomodoro Timer to help you stay focused and productive.</p>
+                <div class="btn-group">
+                    <a href="https://pomodoro-timer-application.netlify.app">
+                        <div class="btn">Live Demo</div>
+                    </a>
+                    <a href="https://github.com/kennedyj2/Pomodoro-Timer">
+                        <div class="btn">Github Repo</div>
+                    </a>
+                    
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="contact" id="contact">
+        <div class="input-box">
+            <h2 class="section-title">Contact Me</h2>
+            <div class="input">
+                <input type="email" id ="userEmail" placeholder="Enter Your Email">
+                
+            </div>
+            <div onclick="sendEmail()" class="btn">Submit</div>
+        </div>
+    </section>
+    <footer>
+        <ul>
+            <li>
+                <a href="#about">About</a>
+            </li>
+            <li>
+                <a href="#experience">Experience</a>
+            </li>
+            <li>
+                <a href="#contact">Contact</a>
+            </li>
+        </ul>
+
+        <p class="copyright">All Rights Reserved | Jeremiah Kennedy</p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
